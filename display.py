@@ -1,0 +1,10 @@
+from student1 import *
+s1=student()
+s1.setId(12)
+s1.setName("ammu")
+s1.setAddress("hno 22/7")
+s1.setMarks(987)
+print("id is:",s1.getId())
+print("name is:",s1.getName())
+print("address is",s1.getAddress())
+print("my marks is",s1.getMarks())
